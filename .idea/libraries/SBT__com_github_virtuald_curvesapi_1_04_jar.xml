@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.virtuald:curvesapi:1.04:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.github.virtuald/curvesapi/curvesapi-1.04.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.github.virtuald/curvesapi/curvesapi-1.04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
