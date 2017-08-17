@@ -1,6 +1,10 @@
 import org.apache.poi.hssf.util.CellReference
 import org.apache.poi.ss.usermodel.DataFormatter
-import org.apache.poi.xssf.usermodel.{XSSFCell, XSSFSheet}
+import org.apache.poi.xssf.usermodel.{XSSFCell, XSSFSheet, XSSFWorkbook}
+
+class Workbook extends XSSFWorkbook(){
+
+}
 
 class Sheet extends XSSFSheet(){
   protected var Range:_Range = _;

@@ -2,8 +2,9 @@ name := "ExcelApi"
 
 version := "1.0"
 
-scalaVersion := "2.10.6"
+organization := "ExcelApi"
 
+scalaVersion := "2.10.6"
 
 retrieveManaged := true
 
