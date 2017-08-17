@@ -1,9 +1,11 @@
 [0m[[0minfo[0m] [0mPackaging C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\excelapi_2.10-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	Sheet.class[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\Sheet.class[0m
-[0m[[0mdebug[0m] [0m	Workbook.class[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\Workbook.class[0m
-[0m[[0mdebug[0m] [0m	_Range.class[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\_Range.class[0m
+[0m[[0mdebug[0m] [0m	ExcelApi[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\ExcelApi[0m
+[0m[[0mdebug[0m] [0m	ExcelApi\Sheet.class[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\ExcelApi\Sheet.class[0m
+[0m[[0mdebug[0m] [0m	ExcelApi\Workbook.class[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\ExcelApi\Workbook.class[0m
+[0m[[0mdebug[0m] [0m	ExcelApi\_Range.class[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\CCrowe\IdeaProjects\ExcelApi\target\scala-2.10\classes\ExcelApi\_Range.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

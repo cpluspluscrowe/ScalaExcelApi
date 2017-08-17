@@ -2,7 +2,7 @@ name := "ExcelApi"
 
 version := "1.0"
 
-organization := "ExcelApi"
+organization := "Chad_Crowe"
 
 scalaVersion := "2.10.6"
 

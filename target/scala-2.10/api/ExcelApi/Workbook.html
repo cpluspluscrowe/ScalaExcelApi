@@ -2,17 +2,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
         <head>
-          <title>Workbook - Workbook</title>
-          <meta name="description" content="Workbook - Workbook" />
-          <meta name="keywords" content="Workbook Workbook" />
+          <title>Workbook - ExcelApi.Workbook</title>
+          <meta name="description" content="Workbook - ExcelApi.Workbook" />
+          <meta name="keywords" content="Workbook ExcelApi.Workbook" />
           <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
           
-      <link href="lib/template.css" media="screen" type="text/css" rel="stylesheet" />
-      <link href="lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
       <script type="text/javascript">
          if(top === self) {
-            var url = 'index.html';
-            var hash = 'Workbook';
+            var url = '../index.html';
+            var hash = 'ExcelApi.Workbook';
             var anchor = window.location.hash;
             var anchor_opt = '';
             if (anchor.length >= 1)
@@ -24,8 +24,8 @@
         </head>
         <body class="type">
       <div id="definition">
-        <img src="lib/class_big.png" />
-        
+        <img src="../lib/class_big.png" />
+        <p id="owner"><a href="package.html" class="extype" name="ExcelApi">ExcelApi</a></p>
         <h1>Workbook</h1>
       </div>
 
@@ -59,7 +59,7 @@
                 <span class="filtertype">Inherited<br />
                 </span>
                 <ol id="linearization">
-                  <li class="in" name="Workbook"><span>Workbook</span></li><li class="in" name="org.apache.poi.xssf.usermodel.XSSFWorkbook"><span>XSSFWorkbook</span></li><li class="in" name="org.apache.poi.ss.usermodel.Workbook"><span>Workbook</span></li><li class="in" name="java.lang.Iterable"><span>Iterable</span></li><li class="in" name="org.apache.poi.POIXMLDocument"><span>POIXMLDocument</span></li><li class="in" name="java.io.Closeable"><span>Closeable</span></li><li class="in" name="java.lang.AutoCloseable"><span>AutoCloseable</span></li><li class="in" name="org.apache.poi.POIXMLDocumentPart"><span>POIXMLDocumentPart</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  <li class="in" name="ExcelApi.Workbook"><span>Workbook</span></li><li class="in" name="org.apache.poi.xssf.usermodel.XSSFWorkbook"><span>XSSFWorkbook</span></li><li class="in" name="org.apache.poi.ss.usermodel.Workbook"><span>Workbook</span></li><li class="in" name="java.lang.Iterable"><span>Iterable</span></li><li class="in" name="org.apache.poi.POIXMLDocument"><span>POIXMLDocument</span></li><li class="in" name="java.io.Closeable"><span>Closeable</span></li><li class="in" name="java.lang.AutoCloseable"><span>AutoCloseable</span></li><li class="in" name="org.apache.poi.POIXMLDocumentPart"><span>POIXMLDocumentPart</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
                 </ol>
               </div><div id="ancestors">
             <span class="filtertype"></span>
@@ -79,8 +79,8 @@
         <div id="allMembers">
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
-              <ol><li name="Workbook#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;():Workbook"></a>
+              <ol><li name="ExcelApi.Workbook#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(pathToExcelFile:String):ExcelApi.Workbook"></a>
       <a id="&lt;init&gt;:Workbook"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -88,7 +88,7 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">Workbook</span><span class="params">()</span>
+        <span class="name">Workbook</span><span class="params">(<span name="pathToExcelFile">pathToExcelFile: <span class="extype" name="scala.Predef.String">String</span></span>)</span>
       </span>
       </h4>
       
@@ -210,7 +210,7 @@
         <span class="name">addPivotCache</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="org.openxmlformats.schemas.spreadsheetml.x2006.main.CTPivotCache">CTPivotCache</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
     </li><li name="org.apache.poi.POIXMLDocumentPart#addRelation" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="addRelation(x$1:String,x$2:org.apache.poi.POIXMLRelation,x$3:org.apache.poi.POIXMLDocumentPart):org.apache.poi.POIXMLDocumentPart.RelationPart"></a>
       <a id="addRelation(String,POIXMLRelation,POIXMLDocumentPart):RelationPart"></a>
@@ -262,7 +262,7 @@
         <span class="name">beforeDocumentRead</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
     </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a>
       <a id="clone():AnyRef"></a>
@@ -275,7 +275,7 @@
         <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
@@ -339,7 +339,7 @@
         <span class="name">commit</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook → POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook → POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -384,7 +384,7 @@
         <span class="name">createDialogsheet</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.lang.String">String</span></span>, <span name="arg1">arg1: <span class="extype" name="org.openxmlformats.schemas.spreadsheetml.x2006.main.CTDialogsheet">CTDialogsheet</span></span>)</span><span class="result">: <span class="extype" name="org.apache.poi.xssf.usermodel.XSSFDialogsheet">XSSFDialogsheet</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
     </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#createFont" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="createFont():org.apache.poi.xssf.usermodel.XSSFFont"></a>
       <a id="createFont():XSSFFont"></a>
@@ -423,7 +423,7 @@
         <span class="name">createRelationship</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.POIXMLRelation">POIXMLRelation</span></span>, <span name="arg1">arg1: <span class="extype" name="org.apache.poi.POIXMLFactory">POIXMLFactory</span></span>, <span name="arg2">arg2: <span class="extype" name="scala.Int">Int</span></span>, <span name="arg3">arg3: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="org.apache.poi.POIXMLDocumentPart.RelationPart">RelationPart</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
     </li><li name="org.apache.poi.POIXMLDocumentPart#createRelationship" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="createRelationship(x$1:org.apache.poi.POIXMLRelation,x$2:org.apache.poi.POIXMLFactory,x$3:Int):org.apache.poi.POIXMLDocumentPart"></a>
       <a id="createRelationship(POIXMLRelation,POIXMLFactory,Int):POIXMLDocumentPart"></a>
@@ -514,7 +514,7 @@
         <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.lang.Throwable]</span>
@@ -675,7 +675,7 @@
         <span class="name">getCorePart</span><span class="params">()</span><span class="result">: <span class="extype" name="org.apache.poi.openxml4j.opc.PackagePart">PackagePart</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd></dl></div>
     </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#getCreationHelper" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getCreationHelper():org.apache.poi.xssf.usermodel.XSSFCreationHelper"></a>
       <a id="getCreationHelper():XSSFCreationHelper"></a>
@@ -954,7 +954,7 @@
         <span class="name">getRelatedByType</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="org.apache.poi.openxml4j.opc.PackagePart">PackagePart</span>]</span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="defval" name="classOf[org.apache.poi.openxml4j.exceptions.InvalidFormatException]">...</span>
@@ -1029,19 +1029,19 @@
                 <span class="name">@Internal</span><span class="args">()</span>
               
         </dd></dl></div>
-    </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#getSheet" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="getSheet(x$1:String):org.apache.poi.xssf.usermodel.XSSFSheet"></a>
-      <a id="getSheet(String):XSSFSheet"></a>
+    </li><li name="ExcelApi.Workbook#getSheet" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getSheet(name:String):ExcelApi.Sheet"></a>
+      <a id="getSheet(String):Sheet"></a>
       <h4 class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">getSheet</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="org.apache.poi.xssf.usermodel.XSSFSheet">XSSFSheet</span></span>
+        <span class="name">getSheet</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="Sheet.html" class="extype" name="ExcelApi.Sheet">Sheet</a></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>XSSFWorkbook → Workbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="" class="extype" name="ExcelApi.Workbook">Workbook</a> → XSSFWorkbook → Workbook</dd></dl></div>
     </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#getSheetAt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getSheetAt(x$1:Int):org.apache.poi.xssf.usermodel.XSSFSheet"></a>
       <a id="getSheetAt(Int):XSSFSheet"></a>
@@ -1145,7 +1145,7 @@
         <span class="name">getTargetPart</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.openxml4j.opc.PackageRelationship">PackageRelationship</span></span>)</span><span class="result">: <span class="extype" name="org.apache.poi.openxml4j.opc.PackagePart">PackagePart</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="defval" name="classOf[org.apache.poi.openxml4j.exceptions.InvalidFormatException]">...</span>
@@ -1355,7 +1355,7 @@
         <span class="name">load</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.POIXMLFactory">POIXMLFactory</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocument</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -1452,7 +1452,7 @@
         <span class="name">onDeleteFormula</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.xssf.usermodel.XSSFCell">XSSFCell</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
     </li><li name="org.apache.poi.POIXMLDocumentPart#onDocumentCreate" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="onDocumentCreate():Unit"></a>
       <a id="onDocumentCreate():Unit"></a>
@@ -1465,7 +1465,7 @@
         <span class="name">onDocumentCreate</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -1484,7 +1484,7 @@
         <span class="name">onDocumentRead</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook → POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook → POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -1503,7 +1503,7 @@
         <span class="name">onDocumentRemove</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -1522,7 +1522,7 @@
         <span class="name">onSave</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.util.Set">Set</span>[<span class="extype" name="org.apache.poi.openxml4j.opc.PackagePart">PackagePart</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="symbol">classOf[java.io.IOException]</span>
@@ -1554,7 +1554,7 @@
         <span class="name">prepareForCommit</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
     </li><li name="org.apache.poi.POIXMLDocumentPart#read" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="read(x$1:org.apache.poi.POIXMLFactory,x$2:java.util.Map[org.apache.poi.openxml4j.opc.PackagePart,org.apache.poi.POIXMLDocumentPart]):Unit"></a>
       <a id="read(POIXMLFactory,Map[PackagePart,POIXMLDocumentPart]):Unit"></a>
@@ -1567,7 +1567,7 @@
         <span class="name">read</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.POIXMLFactory">POIXMLFactory</span></span>, <span name="arg1">arg1: <span class="extype" name="java.util.Map">Map</span>[<span class="extype" name="org.apache.poi.openxml4j.opc.PackagePart">PackagePart</span>, <span class="extype" name="org.apache.poi.POIXMLDocumentPart">POIXMLDocumentPart</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="defval" name="classOf[org.apache.poi.openxml4j.exceptions.OpenXML4JException]">...</span>
@@ -1586,7 +1586,7 @@
         <span class="name">rebase</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.openxml4j.opc.OPCPackage">OPCPackage</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd><dt>Annotations</dt><dd>
                 <span class="name">@throws</span><span class="args">(<span>
       
       <span class="defval" name="classOf[org.apache.poi.openxml4j.exceptions.InvalidFormatException]">...</span>
@@ -1631,7 +1631,7 @@
         <span class="name">removeRelation</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.POIXMLDocumentPart">POIXMLDocumentPart</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
     </li><li name="org.apache.poi.POIXMLDocumentPart#removeRelation" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="removeRelation(x$1:org.apache.poi.POIXMLDocumentPart):Unit"></a>
       <a id="removeRelation(POIXMLDocumentPart):Unit"></a>
@@ -1644,7 +1644,7 @@
         <span class="name">removeRelation</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="org.apache.poi.POIXMLDocumentPart">POIXMLDocumentPart</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi.html" class="extype" name="org.apache.poi">org.apache.poi</a>] </dd><dt>Definition Classes</dt><dd>POIXMLDocumentPart</dd></dl></div>
     </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#removeSheetAt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="removeSheetAt(x$1:Int):Unit"></a>
       <a id="removeSheetAt(Int):Unit"></a>
@@ -1738,7 +1738,7 @@
         <span class="name">setPivotTables</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="java.util.List">List</span>[<span class="extype" name="org.apache.poi.xssf.usermodel.XSSFPivotTable">XSSFPivotTable</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4>
-      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../org$apache$poi$xssf$usermodel.html" class="extype" name="org.apache.poi.xssf.usermodel">org.apache.poi.xssf.usermodel</a>] </dd><dt>Definition Classes</dt><dd>XSSFWorkbook</dd></dl></div>
     </li><li name="org.apache.poi.xssf.usermodel.XSSFWorkbook#setPrintArea" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="setPrintArea(x$1:Int,x$2:Int,x$3:Int,x$4:Int,x$5:Int):Unit"></a>
       <a id="setPrintArea(Int,Int,Int,Int,Int):Unit"></a>
@@ -2308,6 +2308,6 @@
       <div id="tooltip"></div>
 
       <div id="footer">  </div>
-      <script defer="defer" type="text/javascript" id="jquery-js" src="lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="lib/template.js"></script>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../lib/template.js"></script>
     </body>
       </html>
