@@ -31,9 +31,19 @@ class _Range(parent:Sheet,cellReference: CellReference) {
     val address:String = _Cell.getAddress.formatAsString();
     return address;
   }
+  def SetValue(newValue:String): Unit ={
+    _Cell.setCellValue(newValue);
+  }
+  def SetValue(newValue:Double): Unit ={
+    _Cell.setCellValue(newValue);
+  }
   def ValueString(): String ={
     val formattedCellValue = formatter.formatCellValue(_Cell)
-    var value:String = formattedCellValue;
+    val value:String = formattedCellValue;
+    return value;
+  }
+  def ValueNumber(): Double = {
+    val value:Double = _Cell.getNumericCellValue;
     return value;
   }
 }

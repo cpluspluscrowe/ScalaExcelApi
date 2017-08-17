@@ -35,3 +35,9 @@ libraryDependencies += "org.apache.poi" % "poi-scratchpad" % "3.15"
 libraryDependencies += "com.norbitltd" % "spoiwo" % "1.0.6"
 // https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans
 libraryDependencies += "org.apache.xmlbeans" % "xmlbeans" % "2.3.0"
+
+
+// https://mvnrepository.com/artifact/org.scalactic/scalactic_2.10
+libraryDependencies += "org.scalactic" % "scalactic_2.10" % "3.0.3"
+// https://mvnrepository.com/artifact/org.scalatest/scalatest_2.10
+libraryDependencies += "org.scalatest" % "scalatest_2.10" % "3.0.3" % "test"
