@@ -3,8 +3,7 @@ import org.apache.poi.ss.usermodel.DataFormatter
 import org.apache.poi.xssf.usermodel
 import org.apache.poi.xssf.usermodel.{XSSFCell, XSSFSheet, XSSFWorkbook}
 
-class Workbook extends XSSFWorkbook(){
-  
+class Workbook(pathToExcelFile:String) extends XSSFWorkbook(pathToExcelFile:String){
 }
 
 class Sheet extends XSSFSheet(){

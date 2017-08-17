@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="ExcelApi" module="excelapi_2.10" revision="1.0" status="release" publication="20170817103247">
+	<info organisation="ExcelApi" module="excelapi_2.10" revision="1.0" status="release" publication="20170817103906">
 		<description>
 		ExcelApi
 		</description>
